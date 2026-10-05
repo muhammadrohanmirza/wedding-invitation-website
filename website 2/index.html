@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO: change the names below. (Social-media previews read these tags directly, so edit them here too.) -->
+  <title>Ayesha &amp; Ahmed — Wedding Invitation</title>
+  <meta name="description" content="You are warmly invited to the wedding celebration of Ayesha &amp; Ahmed — Barat and Valima.">
+  <meta name="theme-color" content="#F4DDE1">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ayesha &amp; Ahmed — Wedding Invitation">
+  <meta property="og:description" content="Join us as we celebrate the beginning of our journey together.">
+  <!-- Replace with the full public URL of your hosted image once the site is online -->
+  <meta property="og:image" content="assets/gallery-1.jpg">
+
+  <!-- Favicon placeholder: replace with your own favicon file if you like -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B76E79'/%3E%3Ccircle cx='32' cy='32' r='14' fill='%23F4DDE1'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23D6B27A'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-locked">
+
+<!-- ================= SVG SPRITE: icons + floral artwork (all drawn in code, no image files) ================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- rose petal gradients: deeper at the heart, paler at the edge -->
+    <radialGradient id="g-p1" cx=".5" cy="1" r="1"><stop offset="0" stop-color="#B8707B"/><stop offset=".45" stop-color="#D8939E"/><stop offset="1" stop-color="#F1C4CB"/></radialGradient>
+    <radialGradient id="g-p2" cx=".5" cy="1" r="1"><stop offset="0" stop-color="#A85F6C"/><stop offset=".5" stop-color="#D48A97"/><stop offset="1" stop-color="#EDB6BF"/></radialGradient>
+    <radialGradient id="g-p3" cx=".5" cy="1" r="1"><stop offset="0" stop-color="#9A5360"/><stop offset=".5" stop-color="#C97988"/><stop offset="1" stop-color="#E4A3AE"/></radialGradient>
+    <linearGradient id="g-leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A5B8A2"/><stop offset="1" stop-color="#6F8C6E"/></linearGradient>
+    <linearGradient id="g-petal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8DADF"/><stop offset="1" stop-color="#D98F9C"/></linearGradient>
+    <path id="petal" d="M100 104C58 102 40 58 64 34C78 20 92 24 100 32C108 24 122 20 136 34C160 58 142 102 100 104Z"/>
+  </defs>
+
+  <!-- A single pink rose, seen from above -->
+  <symbol id="rose" viewBox="0 0 200 200">
+    <g stroke="#8E4A56" stroke-opacity=".35" stroke-width="1" stroke-linejoin="round">
+      <g fill="url(#g-p1)">
+        <use href="#petal"/>
+        <use href="#petal" transform="rotate(72 100 100)"/>
+        <use href="#petal" transform="rotate(144 100 100)"/>
+        <use href="#petal" transform="rotate(216 100 100)"/>
+        <use href="#petal" transform="rotate(288 100 100)"/>
+      </g>
+      <g fill="url(#g-p2)">
+        <use href="#petal" transform="rotate(36 100 100) translate(100 100) scale(.74) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(108 100 100) translate(100 100) scale(.74) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(180 100 100) translate(100 100) scale(.74) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(252 100 100) translate(100 100) scale(.74) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(324 100 100) translate(100 100) scale(.74) translate(-100 -100)"/>
+      </g>
+      <g fill="url(#g-p3)">
+        <use href="#petal" transform="rotate(18 100 100) translate(100 100) scale(.5) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(108 100 100) translate(100 100) scale(.5) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(198 100 100) translate(100 100) scale(.5) translate(-100 -100)"/>
+        <use href="#petal" transform="rotate(288 100 100) translate(100 100) scale(.5) translate(-100 -100)"/>
+      </g>
+    </g>
+    <path d="M100 100m-9 0a9 9 0 1 1 9 9a5.500 5.500 0 1 1-5.500-5.500" fill="none" stroke="#7E3F4B" stroke-opacity=".55" stroke-width="1.600" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- A botanical leaf (base on the left) -->
+  <symbol id="leaf" viewBox="0 0 100 40">
+    <path d="M2 20C25 -2 70 -2 98 20C70 42 25 42 2 20Z" fill="url(#g-leaf)"/>
+    <path d="M4 20H92" stroke="#fff" stroke-opacity=".4" stroke-width="1" fill="none"/>
+  </symbol>
+
+  <!-- A small five-petal blossom -->
+  <symbol id="blossom" viewBox="0 0 40 40">
+    <g fill="#F6D3D9" stroke="#C98F98" stroke-width=".7">
+      <ellipse cx="20" cy="10" rx="6.500" ry="9"/>
+      <ellipse cx="20" cy="10" rx="6.500" ry="9" transform="rotate(72 20 20)"/>
+      <ellipse cx="20" cy="10" rx="6.500" ry="9" transform="rotate(144 20 20)"/>
+      <ellipse cx="20" cy="10" rx="6.500" ry="9" transform="rotate(216 20 20)"/>
+      <ellipse cx="20" cy="10" rx="6.500" ry="9" transform="rotate(288 20 20)"/>
+    </g>
+    <circle cx="20" cy="20" r="4" fill="#D6B27A"/>
+    <circle cx="20" cy="20" r="1.600" fill="#8F6B2E"/>
+  </symbol>
+
+  <!-- A loose petal -->
+  <symbol id="petal-shape" viewBox="0 0 40 50">
+    <path d="M20 48C4 40 0 20 12 6C16 1 19 3 20 8C21 3 24 1 28 6C40 20 36 40 20 48Z" fill="url(#g-petal)" stroke="#C98F98" stroke-opacity=".5" stroke-width=".8"/>
+  </symbol>
+
+  <!-- Floral corner cluster: drawn from the top-left corner outwards. Mirrored with CSS for other corners -->
+  <symbol id="floral-corner" viewBox="0 0 320 320">
+    <g>
+      <use href="#leaf" x="-3" y="-26" width="150" height="60" transform="translate(40 40) rotate(8)"/>
+      <use href="#leaf" x="-3" y="-26" width="140" height="56" transform="translate(40 40) rotate(30)"/>
+      <use href="#leaf" x="-3" y="-26" width="130" height="52" transform="translate(40 40) rotate(55)"/>
+      <use href="#leaf" x="-3" y="-26" width="125" height="50" transform="translate(40 40) rotate(78)"/>
+      <use href="#leaf" x="-3" y="-26" width="105" height="42" transform="translate(110 30) rotate(-12)"/>
+      <use href="#leaf" x="-3" y="-26" width="105" height="42" transform="translate(30 110) rotate(100)"/>
+      <use href="#leaf" x="-3" y="-26" width="95" height="38" transform="translate(150 120) rotate(40)"/>
+    </g>
+    <use href="#rose" x="25" y="25" width="150" height="150" transform="rotate(14 100 100)"/>
+    <use href="#rose" x="159" y="14" width="92" height="92" transform="rotate(-20 205 60)"/>
+    <use href="#rose" x="16" y="164" width="86" height="86" transform="rotate(30 59 207)"/>
+    <use href="#blossom" x="156" y="140" width="30" height="30"/>
+    <use href="#blossom" x="238" y="112" width="24" height="24"/>
+    <use href="#blossom" x="118" y="226" width="26" height="26"/>
+    <use href="#blossom" x="14" y="268" width="22" height="22"/>
+    <use href="#blossom" x="262" y="30" width="20" height="20"/>
+  </symbol>
+
+  <!-- Small horizontal sprig: leaves, rose, blossoms (used above headings) -->
+  <symbol id="floral-sprig" viewBox="0 0 320 70">
+    <use href="#leaf" x="-3" y="-26" width="86" height="34" transform="translate(130 36) rotate(180)"/>
+    <use href="#leaf" x="-3" y="-26" width="68" height="27" transform="translate(132 38) rotate(160)"/>
+    <use href="#leaf" x="-3" y="-26" width="86" height="34" transform="translate(190 36)"/>
+    <use href="#leaf" x="-3" y="-26" width="68" height="27" transform="translate(188 38) rotate(20)"/>
+    <use href="#blossom" x="30" y="25" width="22" height="22"/>
+    <use href="#blossom" x="268" y="25" width="22" height="22"/>
+    <use href="#rose" x="132" y="7" width="56" height="56"/>
+  </symbol>
+
+  <!-- UI icons -->
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M7 3v3M17 3v3M4 8h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></g></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.600 5.600l1.400 1.400M17 17l1.400 1.400M5.600 18.400L7 17M17 7l1.400-1.400"/></g></symbol>
+  <symbol id="i-suit" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l4 5 4-5 4 4-3 3v11H7V10L4 7z"/><path d="M12 8v13"/></g></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l10-2v12"/><circle cx="6.500" cy="18" r="2.500"/><circle cx="16.500" cy="16" r="2.500"/></g></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path fill="currentColor" d="M7 5h4v14H7zM13 5h4v14h-4z"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 14l6-6 6 6"/></symbol>
+  <symbol id="i-chevron-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVIGATION (appears after the invitation is opened) ================= -->
+<header class="site-header" id="siteHeader" hidden>
+  <a class="site-header__brand" href="#hero" data-bind="monogram">A &amp; A</a>
+  <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+    <a href="#events">Events</a>
+    <a href="#countdown">Countdown</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#venue">Venue</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#save-the-date">Save the Date</a>
+  </nav>
+</header>
+
+<!-- ================= 1. HERO ================= -->
+<section class="hero" id="hero" aria-labelledby="heroNames">
+  <div class="hero__bg" aria-hidden="true"></div>
+
+  <!-- Rose corners (the two on the right/left bottom only appear on larger screens) -->
+  <svg class="floral floral--tl" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+  <svg class="floral floral--br" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+  <svg class="floral floral--tr floral--wide" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+  <svg class="floral floral--bl floral--wide" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <div class="hero__frame">
+      <!-- animated floral frame around the names -->
+      <svg class="hero__bloom hero__bloom--tl" viewBox="0 0 40 40" aria-hidden="true"><use href="#blossom"/></svg>
+      <svg class="hero__bloom hero__bloom--tr" viewBox="0 0 40 40" aria-hidden="true"><use href="#blossom"/></svg>
+      <svg class="hero__bloom hero__bloom--bl" viewBox="0 0 40 40" aria-hidden="true"><use href="#blossom"/></svg>
+      <svg class="hero__bloom hero__bloom--br" viewBox="0 0 40 40" aria-hidden="true"><use href="#blossom"/></svg>
+      <svg class="hero__rose hero__rose--top" viewBox="0 0 200 200" aria-hidden="true"><use href="#rose"/></svg>
+      <svg class="hero__rose hero__rose--bottom" viewBox="0 0 200 200" aria-hidden="true"><use href="#rose"/></svg>
+
+      <p class="hero__eyebrow">Together with their families</p>
+      <h1 class="hero__names" id="heroNames">
+        <span data-bind="brideName">Ayesha</span>
+        <span class="hero__amp" aria-hidden="true">&amp;</span>
+        <span class="sr-only">and</span>
+        <span data-bind="groomName">Ahmed</span>
+      </h1>
+      <p class="hero__sub">Joyfully invite you to celebrate their wedding</p>
+    </div>
+
+    <p class="hero__date" data-bind="heroDateRange"></p>
+    <button class="btn btn--rose" id="openBtn" type="button">Open Invitation</button>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true"></div>
+</section>
+
+<!-- ================= MAIN INVITATION (revealed on click) ================= -->
+<main id="main" class="invitation" hidden>
+
+  <!-- 2. BISMILLAH -->
+  <section class="section section--bismillah reveal" aria-label="Bismillah">
+    <div class="container container--narrow">
+      <div class="bismillah-card center">
+        <svg class="floral-deco floral-deco--tl" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <svg class="floral-deco floral-deco--tr" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <svg class="floral-deco floral-deco--bl" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <svg class="floral-deco floral-deco--br" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <p class="bismillah__arabic" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+        <p class="bismillah__english">In the name of Allah, the Most Gracious, the Most Merciful</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. INTRODUCTION -->
+  <section class="section section--intro reveal" aria-labelledby="introTitle">
+    <div class="container container--narrow center">
+      <div class="heading-wrap">
+        <svg class="petal-deco petal-deco--1" viewBox="0 0 40 50" aria-hidden="true"><use href="#petal-shape"/></svg>
+        <svg class="petal-deco petal-deco--2" viewBox="0 0 40 50" aria-hidden="true"><use href="#petal-shape"/></svg>
+        <svg class="petal-deco petal-deco--3" viewBox="0 0 40 50" aria-hidden="true"><use href="#petal-shape"/></svg>
+        <svg class="petal-deco petal-deco--4" viewBox="0 0 40 50" aria-hidden="true"><use href="#petal-shape"/></svg>
+        <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+        <h2 class="section__title" id="introTitle">The Beginning of Forever</h2>
+      </div>
+      <p class="lead">With the blessings of our families and the grace of Allah, we invite you to join us as we celebrate the beginning of our beautiful journey together.</p>
+
+      <div class="couple">
+        <figure class="couple__person">
+          <!-- Replace assets/bride.jpg with your own photo -->
+          <img src="assets/bride.jpg" alt="Portrait of the bride" width="400" height="400" loading="lazy">
+          <figcaption data-bind="brideName">Ayesha</figcaption>
+        </figure>
+        <span class="couple__amp" aria-hidden="true">&amp;</span>
+        <figure class="couple__person">
+          <!-- Replace assets/groom.jpg with your own photo -->
+          <img src="assets/groom.jpg" alt="Portrait of the groom" width="400" height="400" loading="lazy">
+          <figcaption data-bind="groomName">Ahmed</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. EVENTS -->
+  <section class="section section--events" id="events" aria-labelledby="eventsTitle">
+    <div class="container">
+      <header class="section__head center reveal">
+        <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+        <p class="eyebrow">Join us for</p>
+        <h2 class="section__title" id="eventsTitle">Two Days of Celebration</h2>
+      </header>
+
+      <div class="events">
+        <!-- BARAT -->
+        <article class="event-card event-card--barat reveal" aria-labelledby="baratTitle">
+          <svg class="event-card__rose" viewBox="0 0 200 200" aria-hidden="true"><use href="#rose"/></svg>
+          <p class="event-card__tag">The Wedding</p>
+          <h3 class="event-card__title" id="baratTitle">Barat</h3>
+          <ul class="event-card__list">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><div><span class="label">Date</span><strong data-bind="barat.date"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><div><span class="label">Day</span><strong data-bind="barat.day"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><div><span class="label">Time</span><strong data-bind="barat.time"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="label">Venue</span><strong data-bind="barat.venue"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="label">Address</span><strong data-bind="barat.address"></strong></div></li>
+          </ul>
+          <a class="btn btn--outline-ivory" data-map="barat" href="#" target="_blank" rel="noopener noreferrer">View Location</a>
+        </article>
+
+        <!-- VALIMA -->
+        <article class="event-card event-card--valima reveal" aria-labelledby="valimaTitle">
+          <svg class="event-card__rose" viewBox="0 0 200 200" aria-hidden="true"><use href="#rose"/></svg>
+          <p class="event-card__tag">The Reception</p>
+          <h3 class="event-card__title" id="valimaTitle">Valima</h3>
+          <ul class="event-card__list">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><div><span class="label">Date</span><strong data-bind="valima.date"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><div><span class="label">Day</span><strong data-bind="valima.day"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><div><span class="label">Time</span><strong data-bind="valima.time"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="label">Venue</span><strong data-bind="valima.venue"></strong></div></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="label">Address</span><strong data-bind="valima.address"></strong></div></li>
+          </ul>
+          <a class="btn btn--outline-rose" data-map="valima" href="#" target="_blank" rel="noopener noreferrer">View Location</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. COUNTDOWN -->
+  <section class="section section--countdown" id="countdown" aria-labelledby="countdownTitle">
+    <div class="container center reveal">
+      <h2 class="section__title section__title--light" id="countdownTitle">Counting Down to Our Special Day</h2>
+
+      <div class="tabs" role="tablist" aria-label="Choose event for countdown">
+        <button class="tab is-active" role="tab" type="button" aria-selected="true" data-countdown-tab="barat">Barat</button>
+        <button class="tab" role="tab" type="button" aria-selected="false" data-countdown-tab="valima">Valima</button>
+      </div>
+
+      <div class="countdown" id="countdown-display" role="timer" aria-live="off">
+        <div class="countdown__unit"><span class="countdown__num" id="cd-days">00</span><span class="countdown__label">Days</span></div>
+        <div class="countdown__unit"><span class="countdown__num" id="cd-hours">00</span><span class="countdown__label">Hours</span></div>
+        <div class="countdown__unit"><span class="countdown__num" id="cd-minutes">00</span><span class="countdown__label">Minutes</span></div>
+        <div class="countdown__unit"><span class="countdown__num" id="cd-seconds">00</span><span class="countdown__label">Seconds</span></div>
+      </div>
+      <p class="countdown__done" id="cd-done" hidden>The Celebration Has Begun!</p>
+    </div>
+  </section>
+
+  <!-- 6. TIMELINE -->
+  <section class="section section--timeline" id="timeline" aria-labelledby="timelineTitle">
+    <div class="container">
+      <header class="section__head center reveal">
+        <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+        <p class="eyebrow">How the evenings unfold</p>
+        <h2 class="section__title" id="timelineTitle">Wedding Timeline</h2>
+      </header>
+
+      <div class="timelines">
+        <div class="timeline reveal">
+          <h3 class="timeline__title">Barat</h3>
+          <ol class="timeline__list" id="timeline-barat"></ol>
+        </div>
+        <div class="timeline reveal">
+          <h3 class="timeline__title">Valima</h3>
+          <ol class="timeline__list" id="timeline-valima"></ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. VENUE -->
+  <section class="section section--venue" id="venue" aria-labelledby="venueTitle">
+    <svg class="floral-deco floral-deco--tr floral-deco--section" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+    <svg class="floral-deco floral-deco--bl floral-deco--section" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+    <div class="container">
+      <header class="section__head center reveal">
+        <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+        <p class="eyebrow">Where to find us</p>
+        <h2 class="section__title" id="venueTitle">The Venue</h2>
+      </header>
+
+      <div class="tabs reveal" role="tablist" aria-label="Choose venue">
+        <button class="tab is-active" role="tab" type="button" aria-selected="true" data-venue-tab="barat">Barat</button>
+        <button class="tab" role="tab" type="button" aria-selected="false" data-venue-tab="valima">Valima</button>
+      </div>
+
+      <div class="venue-card reveal">
+        <div class="venue-map" aria-hidden="true">
+          <div class="venue-map__grid"></div>
+          <span class="venue-map__road venue-map__road--a"></span>
+          <span class="venue-map__road venue-map__road--b"></span>
+          <span class="venue-map__road venue-map__road--c"></span>
+          <svg class="venue-map__bloom venue-map__bloom--1" viewBox="0 0 40 40"><use href="#blossom"/></svg>
+          <svg class="venue-map__bloom venue-map__bloom--2" viewBox="0 0 40 40"><use href="#blossom"/></svg>
+          <span class="venue-map__pulse"></span>
+          <svg class="venue-map__pin"><use href="#i-pin"/></svg>
+        </div>
+        <div class="venue-card__info">
+          <h3 class="venue-card__name" id="venue-name"></h3>
+          <p class="venue-card__address" id="venue-address"></p>
+          <p class="venue-card__when" id="venue-when"></p>
+          <a class="btn btn--rose" id="venue-directions" href="#" target="_blank" rel="noopener noreferrer">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. DRESS CODE -->
+  <section class="section section--dress" aria-labelledby="dressTitle">
+    <div class="container container--narrow center">
+      <svg class="sprig reveal" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+      <h2 class="section__title reveal" id="dressTitle">Dress Code</h2>
+      <div class="dress reveal">
+        <div class="dress__item">
+          <svg class="icon icon--lg" aria-hidden="true"><use href="#i-suit"/></svg>
+          <h3>Barat</h3>
+          <p>Traditional / Formal</p>
+        </div>
+        <div class="dress__item">
+          <svg class="icon icon--lg" aria-hidden="true"><use href="#i-suit"/></svg>
+          <h3>Valima</h3>
+          <p>Formal / Semi-Formal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. QUOTE -->
+  <section class="section section--quote reveal" aria-label="Quran verse">
+    <div class="container container--narrow">
+      <blockquote class="quote">
+        <svg class="floral-deco floral-deco--tl" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <svg class="floral-deco floral-deco--br" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+        <p>“And among His signs is that He created for you spouses from among yourselves so that you may find tranquility in them, and He placed between you affection and mercy.”</p>
+        <footer>— Quran 30:21</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- 10. GALLERY -->
+  <section class="section section--gallery" id="gallery" aria-labelledby="galleryTitle">
+    <div class="container">
+      <header class="section__head center reveal">
+        <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+        <p class="eyebrow">Moments</p>
+        <h2 class="section__title" id="galleryTitle">Our Gallery</h2>
+      </header>
+
+      <!--
+        GALLERY IMAGES: replace the src (small version) and data-full (large version) of each image below.
+        You can use local files (assets/gallery-1.jpg) or full web URLs. To add a photo, copy one <li> block.
+      -->
+      <ul class="gallery" id="gallery-grid">
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 1"><img src="assets/gallery-1.jpg" data-full="assets/gallery-1.jpg" alt="Wedding gallery photo 1" loading="lazy" width="800" height="1000"></button></li>
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 2"><img src="assets/gallery-2.jpg" data-full="assets/gallery-2.jpg" alt="Wedding gallery photo 2" loading="lazy" width="800" height="600"></button></li>
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 3"><img src="assets/gallery-3.jpg" data-full="assets/gallery-3.jpg" alt="Wedding gallery photo 3" loading="lazy" width="800" height="800"></button></li>
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 4"><img src="assets/gallery-4.jpg" data-full="assets/gallery-4.jpg" alt="Wedding gallery photo 4" loading="lazy" width="800" height="1000"></button></li>
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 5"><img src="assets/gallery-5.jpg" data-full="assets/gallery-5.jpg" alt="Wedding gallery photo 5" loading="lazy" width="800" height="600"></button></li>
+        <li class="gallery__item reveal"><button type="button" class="gallery__btn" aria-label="Open photo 6"><img src="assets/gallery-6.jpg" data-full="assets/gallery-6.jpg" alt="Wedding gallery photo 6" loading="lazy" width="800" height="1000"></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 11. SAVE THE DATE (downloads a calendar file for each event) -->
+  <section class="section section--save" id="save-the-date" aria-labelledby="saveTitle">
+    <svg class="floral-deco floral-deco--tl floral-deco--section" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+    <svg class="floral-deco floral-deco--br floral-deco--section" viewBox="0 0 320 320" aria-hidden="true" focusable="false"><use href="#floral-corner"/></svg>
+    <div class="container container--narrow center reveal">
+      <svg class="sprig" viewBox="0 0 320 70" aria-hidden="true"><use href="#floral-sprig"/></svg>
+      <h2 class="section__title" id="saveTitle">Save The Date</h2>
+      <p class="lead">Save these special moments to your calendar</p>
+      <div class="actions">
+        <button class="btn btn--rose" type="button" data-ics="barat"><svg class="icon" aria-hidden="true"><use href="#rose"/></svg>Save Barat Date</button>
+        <button class="btn btn--outline-rose" type="button" data-ics="valima"><svg class="icon" aria-hidden="true"><use href="#blossom"/></svg>Save Valima Date</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 12. FOOTER -->
+<footer class="site-footer" id="siteFooter" hidden>
+  <div class="container center">
+    <p class="site-footer__names"><span data-bind="brideName">Ayesha</span> <span class="site-footer__amp">&amp;</span> <span data-bind="groomName">Ahmed</span></p>
+    <p class="site-footer__love">Made with love</p>
+    <p class="site-footer__date" data-bind="footerDate"></p>
+
+    <div class="site-footer__rule" aria-hidden="true"><span></span><i></i><span></span></div>
+
+       <div class="brand" >
+      <p class="brand__label">Designed &amp; Developed by</p>
+      <p class="brand__name">Rohan.Dev</p>
+      <p class="brand__role">Full Stack Developer &amp; AI Engineer</p>
+      <!-- Developer contact only. The number is set in weddingConfig.contact.whatsapp (js/script.js) -->
+      <a class="btn btn--outline-gold" id="devContact" rel="noopener noreferrer">WhatsApp:- 03361395949</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= FLOATING CONTROLS ================= -->
+<button class="fab fab--music" id="musicBtn" type="button" aria-label="Play music" aria-pressed="false" hidden>
+  <svg class="icon" aria-hidden="true"><use id="musicIcon" href="#i-music"/></svg>
+</button>
+<button class="fab fab--top" id="topBtn" type="button" aria-label="Back to top" hidden>
+  <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>
+</button>
+
+<!-- Wedding music: place your file at assets/wedding-music.mp3 -->
+<audio id="weddingAudio" src="assets/Muslim Wedding invitation video card @249 __ Wedding invitations video invitationcard ytshorts.mp3" loop preload="none"></audio>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lightbox__btn lightbox__close" id="lbClose" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <button class="lightbox__btn lightbox__prev" id="lbPrev" type="button" aria-label="Previous photo"><svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+  <figure class="lightbox__figure">
+    <img id="lbImage" src="" alt="">
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lightbox__btn lightbox__next" id="lbNext" type="button" aria-label="Next photo"><svg class="icon" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
